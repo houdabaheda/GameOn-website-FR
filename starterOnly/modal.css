@@ -77,7 +77,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .topnav a {
     display: none;
   }
@@ -89,14 +89,23 @@ img {
     margin: 0px;
     padding: 0px;
     right: 0px;
-    color: red;
-    
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .fa-bars{
+    color: red;
+  }
+  .topnav .icon:hover{
+    background-color: white;
+    color: red;
+  }
+  .main-navbar{
+    margin-right: 15px;
+  }
   .topnav.responsive {
     position: relative;
+    margin-bottom: 279px;
   }
 
   .topnav.responsive .icon {
@@ -574,9 +583,9 @@ footer {
   margin: 0 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .content, .cont{
-    max-width: 768px;
+    max-width: 1024px;
   }
   .bground , .bg{
     margin-top: 51px;
